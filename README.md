@@ -1,6 +1,21 @@
-# frontend-2-renderizado-desde-servidor-y-auditoria
+# FrontEnd 2 Renderizado desde Servidor (SSR)
 
-> My mathematical Nuxt.js project
+### Primer Reporte de Auditoria con LightHouse
+
+![Primer Reporte SSR con LightHouse](/docs/images/primer-reporte-audit-lighthouse.png)
+
+## Optimización de la Aplicación en base a la información del primer reporte
+
+- Agregado atributo lang en la etiqueta html.
+- Agregado atributo alt en las imagenes de la aplicación.
+- Inputs colocados dentro de la etiqueta label.
+- Corrección de imagen del logo en la parte inferior con una relación incorrecta de altura y ancho.
+- Corrección de contraste en los items del Navbar.
+
+### Segundo Reporte de Auditoria con LightHouse
+
+![Segundo Reporte SSR con LightHouse](/docs/images/segundo-reporte-audit-lighthouse.png)
+
 
 ## Build Setup
 
