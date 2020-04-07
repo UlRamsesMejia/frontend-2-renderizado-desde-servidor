@@ -7,11 +7,11 @@
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
-      <b-carousel-slide img-src="../assets/img/banner-1.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="../assets/img/banner-2.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="../assets/img/banner-3.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="../assets/img/banner-4.jpg"></b-carousel-slide>
-      <b-carousel-slide img-src="../assets/img/banner-5.jpg"></b-carousel-slide>
+      <b-carousel-slide img-src="../assets/img/banner-1.jpg" alt=""></b-carousel-slide>
+      <b-carousel-slide img-src="../assets/img/banner-2.jpg" alt=""></b-carousel-slide>
+      <b-carousel-slide img-src="../assets/img/banner-3.jpg" alt=""></b-carousel-slide>
+      <b-carousel-slide img-src="../assets/img/banner-4.jpg" alt=""></b-carousel-slide>
+      <b-carousel-slide img-src="../assets/img/banner-5.jpg" alt=""></b-carousel-slide>
     </b-carousel>
     <div id="servicios" class="container mt-3 pb-3">
       <h2 class="text-center mb-3">
@@ -68,19 +68,19 @@
       <div class="row">
         <div class="col-12 col-md-4">
           <div>
-            <img src="../assets/img/division-gestion-interna.jpeg" class="img-fluid">
+            <img src="../assets/img/division-gestion-interna.jpeg" class="img-fluid" alt="División Gestión Interna">
           </div>
           <strong class="d-block text-center m-3">DIVISIÓN GESTIÓN INTERNA</strong>
         </div>
         <div class="col-12 col-md-4">
           <div>
-            <img src="../assets/img/disivision-de-ambiente.jpeg" class="img-fluid">
+            <img src="../assets/img/disivision-de-ambiente.jpeg" class="img-fluid" alt="División de Ambiente">
           </div>
           <strong class="d-block text-center m-3">DIVISIÓN DE AMBIENTE</strong>
         </div>
         <div class="col-12 col-md-4">
           <div>
-            <img src="../assets/img/division-de-desechos-solidos.jpeg" class="img-fluid">
+            <img src="../assets/img/division-de-desechos-solidos.jpeg" class="img-fluid" alt="División Desechos Sólidos">
           </div>
           <strong class="d-block text-center m-3">DIVISIÓN DE DESECHOS SÓLIDOS</strong>
         </div>
@@ -94,28 +94,40 @@
             <form>
               <div class="form-row">
                 <div class="col-12 col-md-6 mb-2">
-                  <label>Nombre</label>
-                  <input type="text" class="form-control" required>
+                  <label class="w-100">
+                    Nombre
+                    <input type="text" class="form-control" required>
+                  </label>
                 </div>
                 <div class="col-12 col-md-6 mb-2">
-                  <label>Apellido</label>
-                  <input type="text" class="form-control" required>
+                  <label class="w-100">
+                    Apellido
+                    <input type="text" class="form-control" required>
+                  </label>
                 </div>
                 <div class="col-12 col-md-6 mb-2">
-                  <label>Correo</label>
-                  <input type="email" class="form-control" required>
+                  <label class="w-100">
+                    Correo
+                    <input type="email" class="form-control" required>
+                  </label>
                 </div>
                 <div class="col-12 col-md-6 mb-2">
-                  <label>Teléfono</label>
-                  <input type="text" class="form-control" required>
+                  <label class="w-100">
+                    Teléfono
+                    <input type="text" class="form-control" required>
+                  </label>
                 </div>
                 <div class="col-12 mb-2">
-                  <label>Asunto</label>
-                  <input type="text" class="form-control" required>
+                  <label class="w-100">
+                    Asunto
+                    <input type="text" class="form-control" required>
+                  </label>
                 </div>
                 <div class="col-12 mb-2">
-                  <label>Mensaje</label>
-                  <textarea class="form-control" required></textarea>
+                  <label class="w-100">
+                    Mensaje
+                    <textarea class="form-control" required></textarea>
+                  </label>
                 </div>
               </div>
               <button type="submit" class="btn btn-success btn-block">Enviar</button>
@@ -125,8 +137,8 @@
       </div>
     </div>
     <div class="bg-light d-flex justify-content-between align-items-center px-3">
-      <div class="p-2">
-        <img src="../assets/img/logo-minec.png" width="100" height="70">
+      <div class="p-2 logo">
+        <img src="../assets/img/logo-minec.png" alt="logo" class="img-fluid">
       </div>
       <div>
         <strong>
@@ -261,5 +273,10 @@ export default {
   .modal-footer {
     border: 0 !important;
     padding: 1rem 2rem !important;
+  }
+
+  .logo {
+    width: 120px;
+    height: 90px;
   }
 </style>

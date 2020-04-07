@@ -4,7 +4,7 @@
     <div class="row">
       <div v-for="(noticia, i) in noticias" v-bind:key="i" class="col-12 col-sm-2 col-md-4"
         data-toggle="modal" data-target="#detallesNoticia" @click="detallesNoticia = noticia">
-        <img v-bind:src="`${noticia.img}`" class="img-fluid">
+        <img v-bind:src="`${noticia.img}`" class="img-fluid" :alt="'Noticia '+i">
         <p class="text-center">{{ noticia.descripcionBreve }}</p>
       </div>
     </div>

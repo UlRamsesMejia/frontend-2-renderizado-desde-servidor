@@ -5,6 +5,9 @@ export default {
   ** Headers of the page
   */
   head: {
+    htmlAttrs: {
+      lang: 'es',
+    },
     title: 'Fontend 2 SSR',
     meta: [
       { charset: 'utf-8' },

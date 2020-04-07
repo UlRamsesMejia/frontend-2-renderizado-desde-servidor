@@ -20,3 +20,11 @@
     </b-navbar>
   </div>
 </template>
+<style>
+  .nav-link {
+    color: white !important;
+  }
+  .nav-link:hover {
+    color: #6c757d !important;
+  }
+</style>
